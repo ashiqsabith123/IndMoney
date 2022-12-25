@@ -207,3 +207,11 @@ body{
     margin-right: auto;
 }
 
+
+@media screen and (max-width: 500px) {
+    .dowload {
+       visibility: hidden;
+      background-color: red;
+    }
+  }
+
