@@ -134,4 +134,51 @@ body{
     padding-top: 9rem;
 }
 
+.hero{
+    background-color: rgb(245, 245, 248, 1);
+}
+
+.uslist li p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    
+}
+
+.learnmorearrow{
+    width: 35px;
+    height: 14px;
+}
+
+.amer{
+    position: relative;
+    z-index: -1;
+    bottom: 30rem;
+    left: 2.2rem;
+}
+
+.usinner{
+   background-color:  #ffcece;
+   height: 75px;
+   max-width: 75px;
+   width: 100;
+   margin-left: auto;
+   margin-right: auto;  
+   border-radius: 22px;
+   padding-top: .7rem;
+}
+
+.usouter{
+    height: 150px;
+   margin-right: 15px;
+}
+
+.ushead{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.greentick{
+    margin-left: auto;
+    margin-right: auto;
+}
 
