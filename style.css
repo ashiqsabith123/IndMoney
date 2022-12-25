@@ -159,6 +159,10 @@ body{
     padding-bottom: 20vh;
 }
 
+.comaclr{
+    background-color: rgb(245, 245, 248, 1);
+}
+
 .uslist li p{
     font-weight: 700;
     font-size: 1.25rem;
