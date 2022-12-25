@@ -136,8 +136,27 @@ body{
     padding-top: 9rem;
 }
 
+
+
+.section2{
+    padding-top: 6rem;
+    padding-bottom: 20vh;
+}
+
+.section3{
+    background-color: rgb(245, 245, 248, 1);
+   
+    padding-top: 3rem;
+}
+
+.section4{
+    padding-top: 6rem;
+    padding-bottom: 20vh;
+}
+
 .hero{
     background-color: rgb(245, 245, 248, 1);
+    padding-bottom: 20vh;
 }
 
 .uslist li p{
