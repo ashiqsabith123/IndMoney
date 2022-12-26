@@ -189,7 +189,7 @@ body{
    margin-left: auto;
    margin-right: auto;  
    border-radius: 22px;
-   padding-top: .7rem;
+   padding: 17px;
 }
 
 .usouter{
@@ -213,6 +213,20 @@ body{
       display: none !important;
       
     }
+
+    .mobilelearnmore{
+        display: none !important;
+    }
+
+    .buttonmobile{
+        display: inline !important;
+    }
+
+    .buttonpc{
+        display: none !important;
+    }
+
+    
   }
 
   .social{
@@ -266,8 +280,16 @@ body{
     font-size: 10px;
 }
 
+.section5{
+    padding-top: 4rem;
+}
 
-@media screen and (min-width: 300px) {
+.section6{
+    background-color: rgb(245, 245, 248, 1);
+}
+
+
+@media screen and (max-width: 500px) {
     .mobiletextviewhead1{
         font-size: 28px;
     }
@@ -306,5 +328,62 @@ body{
 
     .section2{
         padding-top: 3rem;
+        padding-bottom: 2rem;
     }
+
+    .buttonmobilebutton{
+        width: 185px;
+        height: 54px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: white;
+        border-radius: 30px;
+        height: 50px;
+        background-color: #017aff;
+        font-weight: 600;
+        outline: hidden;
+        border: hidden;
+        font-size: 18px;
+    }
+
+    .section3sub2{
+        margin-bottom: -364px;
+    }
+
+    .section4{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .sec{
+        padding-bottom: 2rem;
+    }
+
+    .usinner{
+        height: 65px;
+        
+    }
+
+    .usouter{
+       
+    margin-right: 9px;
+    }
+
+    .rareone{
+        margin-left: -14px;
+    }
+
+    .rarecas{
+        margin-left: 20px;
+
+    }
+
+
+    
+
+    
+
+    
+    
   }
+
+  
