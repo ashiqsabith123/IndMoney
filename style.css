@@ -145,7 +145,7 @@ body{
 
 .section3{
     background-color: rgb(245, 245, 248, 1);
-   
+    padding-bottom: 7rem;
     padding-top: 3rem;
 }
 
@@ -288,6 +288,11 @@ body{
     background-color: rgb(245, 245, 248, 1);
 }
 
+.rarecas{
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 @media screen and (max-width: 500px) {
     .mobiletextviewhead1{
@@ -372,10 +377,11 @@ body{
         margin-left: -14px;
     }
 
-    .rarecas{
-        margin-left: 20px;
-
+    .section3{
+        padding-bottom: 26rem;
     }
+
+   
 
 
     
