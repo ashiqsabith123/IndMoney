@@ -210,8 +210,101 @@ body{
 
 @media screen and (max-width: 500px) {
     .dowload {
-       visibility: hidden;
-      background-color: red;
+      display: none !important;
+      
     }
   }
 
+  .social{
+    width: 28px;
+    height: 28px;
+  }
+
+  .footerapps ul li{
+    display: inline;
+    margin-right: 15px;
+  }
+
+  .socialdiv ul li{
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .socialdiv{
+    margin-left: -34px;
+  }
+
+  .footer{
+    padding-top: 7rem;
+  }
+
+.footerapps{
+    margin-left: -34px;
+
+}
+
+.footer1para{
+    font-size: 13px;
+}
+
+.footerlist li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.footercontainer{
+    max-width: 1257px !important;
+}
+
+.footer1paralast{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.lastp{
+    font-size: 10px;
+}
+
+
+@media screen and (min-width: 300px) {
+    .mobiletextviewhead1{
+        font-size: 28px;
+    }
+
+    .mobiletextviewhead2div{
+        margin-top: 25px !important;
+    }
+
+    .mobiletextviewhead2{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .mobiletextviewhead3{
+        width: 151px;
+        height: 54px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: white;
+        border-radius: 30px;
+        height: 50px;
+        background-color: #017aff;
+        font-weight: 600;
+        outline: hidden;
+        border: hidden;
+        font-size: 18px;
+
+    }
+
+    .mobileviewimg{
+        padding-top: 3rem !important;
+    }
+
+    .hero{
+        padding-bottom: 5rem;
+    }
+
+    .section2{
+        padding-top: 3rem;
+    }
+  }
